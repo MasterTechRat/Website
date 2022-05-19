@@ -1,0 +1,43 @@
+/* 共通部分 */
+.wrapper{
+    display: flex;
+
+}
+body{
+    /* 書体の指定、行の高さの指定、色の指定 */
+    font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: rgb(80, 80, 0);
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.header-content{
+    padding: 5px 10px;
+    background: rgb(20, 200, 255,.25);
+    justify-content: space-between;
+}
+.header-title{
+    font-weight: bold;
+    font-size: 2.125rem;
+    font-family: 'Nunito', sans-serif;
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    font-size: 1.25rem;
+}
+.header-menu li{
+    padding: 10px 5px 10px;
+}
+
+.header-menu li:hover{
+    color: rgb(red, green, blue, alpha);
+}
